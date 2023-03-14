@@ -1,0 +1,64 @@
+baseURL = "https://www.example.com/"
+languageCode = "en-us"
+title = "Lakala官网"
+theme = "hugo-hero-theme"
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.92.0"
+
+[params]
+  google_analytics_id=""
+
+  [params.logo]
+    mobile = "images/logo-mobile.svg"
+    mobile_height = "36px"
+    mobile_width = "36px"
+    desktop = "images/lakala.png"
+    desktop_height = "29px"
+    desktop_width = "217px"
+    alt = "Hugo Hero"
+
+  [params.homepage_meta_tags]
+    meta_description = ""
+    meta_description = "拉卡拉pos机办理电话：13699497180 拉卡拉pos机免费领取4G电签版pos机、传统大pos机、智能pos机均可申请！专业解答个人pos机办理、pos机费率、pos机使用方面等问题，欢迎咨询！拉卡拉pos机,拉卡拉办理,POS机办理,POS机安装,POS机办理电话,刷卡机安装,POS机免费领取"
+    meta_og_title = "POS机办理"
+    meta_og_type = "website"
+    meta_og_url = "https://zouyt.com"
+    meta_og_image = "https://www.lakala.com/storage/topic/20201215/8ef69b082b36b5ab48daa27b45c03ad0.jpg"
+    meta_og_description = "拉卡拉pos机办理电话：13699497180 拉卡拉pos机免费领取4G电签版pos机、传统大pos机、智能pos机均可申请！专业解答个人pos机办理、pos机费率、pos机使用方面等问题，欢迎咨询！拉卡拉pos机,拉卡拉办理,POS机办理,POS机安装,POS机办理电话,刷卡机安装,POS机免费领取"
+
+[[menu.main]]
+	name = "首页"
+	url = "/"
+    weight = 1
+
+[[menu.main]]
+	name = "产品与服务"
+	url = "/services/"
+    weight = 2
+
+[[menu.main]]
+    name = "新闻资讯"
+    url = "/work/"
+    weight = 3
+
+[[menu.main]]
+    name = "POS机免费办理"
+    url = "/history/"
+    weight = 4
+
+[[menu.main]]
+    name = "POS费率"
+    url = "/contact/"
+    weight = 5
+
+[[menu.main]]
+    name = "关于我们"
+    url = "/about/"
+    weight = 6
+
+[permalinks]
+  post = "/:year/:month/:day/:slug/"
+  pages = "/:filename/"
